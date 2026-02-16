@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-  message = "<h1><center> HIIIII World app! Version  2 {} <center><h1>".format(hostname)
+  message = "<h1><center> HIIIII This is My first New Devops Project! Version  1 {} <center><h1>".format(hostname)
   return message
 
 if __name__ == "__main__":
